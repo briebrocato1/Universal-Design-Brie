@@ -23,3 +23,17 @@ ul li a {
 ul li a:hover {
     background-color: #111111;
 }
+
+
+.sr-only {
+    position: absolute;
+    border: 0;
+    clip: rect(0, 0, 0, 0);
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    white-space: nowrap;
+/* from google */
+}
